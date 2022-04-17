@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 import './Main.css'
-import { faBatteryCar, faGlobe, faHotel, faParking, faPlane, faShop, faSuitcaseRolling } from '@fortawesome/free-solid-svg-icons';
+import {  faGlobe, faHotel, faPlane,  faSuitcaseRolling } from '@fortawesome/free-solid-svg-icons';
 
 const Main = () => {
     return (

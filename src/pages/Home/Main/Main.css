@@ -20,6 +20,18 @@
     height: 180px;
     border-radius: 7px;
 }
+.round-1 p{
+    color: black;
+}
+.round-2 p{
+    color: black;
+}
+.round-3 p{
+    color: black;
+}
+.round-4 p{
+    color: black;
+}
 .round-2{
     background-color: white;
     width: 280px;
