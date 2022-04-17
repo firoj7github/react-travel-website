@@ -1,0 +1,20 @@
+.header-all{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(5, 19, 19);
+    display: flex;
+    align-items: center;
+  
+}
+.header-all nav{
+    margin-left: 950px;
+}
+.header-all nav a{
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    font-size: 17px;
+}
+.header-all nav a:hover{
+    color: coral;
+}
