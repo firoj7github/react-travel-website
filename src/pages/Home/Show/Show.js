@@ -7,7 +7,7 @@ const Show = () => {
         <div className='show-all'>
             <div className="show">
                 <div className="show-1">
-                    <h4>Travelling to new place are gain some of the most rewardingexperience</h4>
+                    <h3>Travelling to new place are gain some of the most rewardingexperience</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste mollitia exercitationem optio et neque reiciendis molestiae obcaecati perspiciatis dolorum odio itaque quas veritatis unde aliquid expedita nam ab, vero quae.</p>
                     <a href="">Read More</a>
                 </div>

@@ -18,15 +18,15 @@ const Service = () => {
                 </div>
                 <div className="service-2">
                 <img src={icon1} alt="" />
-                    <h3>Residant Service</h3>
-                    <h5>$300.07</h5>
+                    <h3>Residrant Service</h3>
+                    <h5>$800.07</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, animi.</p>
                     <a href="">Read More</a>
                 </div>
                 <div className="service-3">
                 <img src={icon} alt="" />
                     <h3>Boat Service</h3>
-                    <h5>$700.92</h5>
+                    <h5>$200.92</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, animi.</p>
                     <a href="">Read More</a>
                 </div>
