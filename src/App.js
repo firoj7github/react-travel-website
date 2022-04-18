@@ -11,6 +11,7 @@ import ServiceDetail from './pages/Home/Service/ServiceDetail/ServiceDetail';
 import Register from './pages/Register/Register';
 import Checkout from './pages/Checkout/Checkout';
 import Footer from './share/footer/Footer';
+import Error from './pages/Error/Error';
 
 
 
@@ -26,11 +27,12 @@ function App() {
         <Route path='/About' element={<About></About>}></Route>
         <Route path='/ServiceDetail' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/Register' element={<Register></Register>}></Route>
+        <Route path='*' element={<Error></Error>}></Route>
         <Route path='/Login' element={<Login></Login>}></Route>
         <Route path='/Checkout' element={<Checkout></Checkout>}></Route>
       </Routes>
      
-      <Footer></Footer>
+     
     </div>
   );
 }

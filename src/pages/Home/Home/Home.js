@@ -6,6 +6,7 @@ import Main from '../Main/Main';
 import Package from '../Package/Package';
 import Service from '../Service/Service';
 import Show from '../Show/Show';
+import Footer from '../../../share/footer/Footer';
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Service></Service>
             <Package></Package>
           <div className='part'></div>
+          <Footer></Footer>
         </div>
     );
 };
