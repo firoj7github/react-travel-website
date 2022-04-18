@@ -3,7 +3,7 @@ import './Login.css'
 
 
 import Social from './Social/Social';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
@@ -19,6 +19,8 @@ const Login = () => {
         error,
       ] = useSignInWithEmailAndPassword(auth);
     const navigate = useNavigate();
+    const location = useLocation();
+    let from = location.state?.from?.pathname || "/";
 
     if (error) {
         return (
@@ -29,7 +31,7 @@ const Login = () => {
       }
 
     if(user){
-        navigate('/');
+        navigate(from, {repalce: true});
     }
     
    
@@ -46,9 +48,9 @@ const Login = () => {
         <div className='login-form'>
             <h2>Please Login</h2>
             <form onSubmit={handleLogin} className='login-manage'>
-                <input type="email" name="email" id="" placeholder='Enter your email' />
+                <input type="email" name="email" id="" placeholder='Enter your email' required />
                 <input type="password" name="password" id=""
-                placeholder='Enter your password' />
+                placeholder='Enter your password' required />
                 <input type="submit" value="Login" />
             </form>
             <h4 className='login-tost-all'>New to genius car? <Link to='/Register' className='login-tost' onClick={navigateRegister}>Plz Register</Link></h4>

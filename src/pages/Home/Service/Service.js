@@ -13,21 +13,21 @@ const Service = () => {
                     <img src={icon2} alt="" />
                     <h3>Swiming Service</h3>
                     <h5>$400.25</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, animi.</p>
+                    <p>Travel dates back to antiquity where wealthy Greeks and Romans would travel.</p>
                     <a href="/ServiceDetail">Read More</a>
                 </div>
                 <div className="service-2">
                 <img src={icon1} alt="" />
                     <h3>Residrant Service</h3>
                     <h5>$800.07</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, animi.</p>
+                    <p>Travel dates back to antiquity where wealthy Greeks and Romans would travel.</p>
                     <a href="/ServiceDetail">Read More</a>
                 </div>
                 <div className="service-3">
                 <img src={icon} alt="" />
                     <h3>Boat Service</h3>
                     <h5>$200.92</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, animi.</p>
+                    <p>Travel dates back to antiquity where wealthy Greeks and Romans would travel.</p>
                     <a href="/ServiceDetail">Read More</a>
                 </div>
             </div>

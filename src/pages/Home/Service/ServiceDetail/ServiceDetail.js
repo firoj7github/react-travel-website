@@ -1,13 +1,19 @@
 import React from 'react';
 import './ServiceDetail.css'
+import './ServiceDetail.css'
 import icon from '../../../../image/boat.png'
 import icon1 from '../../../../image/room.png'
 import icon2 from '../../../../image/swim.png'
+import { Link } from 'react-router-dom';
 
 const ServiceDetail = () => {
     return (
-        <div className='service-total'>
-            <h2>Our Service</h2>
+
+        <div>
+            <Link className='check-btn' to='/Checkout'>checkout </Link>
+        
+        <div className='service-total-all'>
+            {/* <h2>Our Service</h2> */}
             <div className="service">
                 <div className="service-1">
                     <img src={icon2} alt="" />
@@ -33,6 +39,8 @@ const ServiceDetail = () => {
             </div>
             
         </div>
+        </div>
+        
     );
 };
 

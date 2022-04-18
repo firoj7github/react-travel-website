@@ -6,7 +6,7 @@ const Package = () => {
         <div className='package-all'>
              <div className="package">
                  <h2> Best Festible For You</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt blanditiis aliquid odio sunt, praesentium eos impedit nulla tempora architecto nam.</p>
+                 <p>Travel in the Middle Ages offered hardships and challenges however it was important much more wating. </p>
                 <a href="">Read More</a>
             
 

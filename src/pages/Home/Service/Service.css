@@ -97,3 +97,19 @@
 .service-2 img{
     padding-top: 20px;
 }
+@media screen and (min-width : 769px) and (max-width : 992px) {
+    .service{
+        
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         
+    }
+}
+@media screen and  (max-width : 768px) {
+    .service{
+       
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+       
+    }
+}

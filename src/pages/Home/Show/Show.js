@@ -8,7 +8,7 @@ const Show = () => {
             <div className="show">
                 <div className="show-1">
                     <h3>Travelling to new place are gain some of the most rewardingexperience</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste mollitia exercitationem optio et neque reiciendis molestiae obcaecati perspiciatis dolorum odio itaque quas veritatis unde aliquid expedita nam ab, vero quae.</p>
+                    <p>Travel in the Middle Ages offered hardships and challenges, however, it was important to the economy and to society. The wholesale sector depended (for example) on merchants dealing with/through caravans. </p>
                     <a href="">Read More</a>
                 </div>
                 <div className="show-2">

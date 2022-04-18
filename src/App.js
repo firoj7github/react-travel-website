@@ -12,6 +12,7 @@ import Register from './pages/Register/Register';
 import Checkout from './pages/Checkout/Checkout';
 import Footer from './share/footer/Footer';
 import Error from './pages/Error/Error';
+import RequareAuth from './pages/Login/RequareAuth/RequareAuth';
 
 
 
@@ -29,7 +30,11 @@ function App() {
         <Route path='/Register' element={<Register></Register>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
         <Route path='/Login' element={<Login></Login>}></Route>
-        <Route path='/Checkout' element={<Checkout></Checkout>}></Route>
+        <Route path='/Checkout' element={
+        <RequareAuth>
+            <Checkout></Checkout>
+        </RequareAuth>
+        }></Route>
       </Routes>
      
      

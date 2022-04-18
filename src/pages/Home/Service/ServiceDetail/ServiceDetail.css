@@ -1,10 +1,12 @@
-.service-total{
+.service-total-all{
     background: url(../../../../image/Untitled-7.png);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
+    padding-top: 150px;
+    
 }
-.service-total h2{
+.service-total-all h2{
     text-align: center;
     color: white;
     padding-top: 50px;
@@ -96,4 +98,20 @@
 }
 .service-2 img{
     padding-top: 20px;
+}
+
+.check-btn{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: darkcyan;
+    color: white;
+    margin-left: 600px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+   position: absolute;
+   margin-top: 50px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Social.css'
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
@@ -18,7 +19,7 @@ const Social = () => {
       }
     return (
         <div>
-             <button onClick={()=>signInWithGoogle()}>Google Sign In</button>
+             <button className='google-sign' onClick={()=>signInWithGoogle()}>Google Sign In</button>
         </div>
     );
 };
