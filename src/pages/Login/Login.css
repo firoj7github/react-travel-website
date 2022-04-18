@@ -1,20 +1,20 @@
-.login-from{
+.login-form{
     width: 800px;
     height: 300px;
-    background-color: coral;
+    background-color: rgb(247, 145, 108);
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 5px;
 }
-.login-from h2{
+.login-form h2{
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
     color: white;
     font-weight: 700;
     margin-bottom: 25px;
 }
 .login-manage{
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 .login-manage input{
@@ -32,4 +32,12 @@
 }
 .submit-btn{
     cursor: pointer;
+}
+.login-tost{
+  color: crimson;
+  padding-left: 4px;
+}
+.login-tost-all{
+    margin-left: 200px;
+    color: darkslategray;
 }

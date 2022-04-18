@@ -1,37 +1,59 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.css'
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import auth from '../../firebase.init';
+
+
 import Social from './Social/Social';
+import { Link, useNavigate } from 'react-router-dom';
+import auth from '../../firebase.init';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+
 
 
 
 const Login = () => {
-    
+
     const [
         signInWithEmailAndPassword,
         user,
-        loading,
+        
         error,
       ] = useSignInWithEmailAndPassword(auth);
-    const handleLogin = event =>{
-        event.preventDefault ();
+    const navigate = useNavigate();
+
+    if (error) {
+        return (
+          <div>
+            <p>Error: {error.message}</p>
+          </div>
+        );
+      }
+
+    if(user){
+        navigate('/');
+    }
+    
+   
+    const handleLogin = event => {
+        event.preventDefault();
         const email = event.target.email.value;
-      
         const password = event.target.password.value;
         signInWithEmailAndPassword(email, password);
     }
+    const navigateRegister = event =>{
+      navigate('/Register');
+  }
     return (
-        <div className='login-from'>
+        <div className='login-form'>
             <h2>Please Login</h2>
-            <from onSubmit={handleLogin} className='login-manage'>
+            <form onSubmit={handleLogin} className='login-manage'>
                 <input type="email" name="email" id="" placeholder='Enter your email' />
                 <input type="password" name="password" id=""
                 placeholder='Enter your password' />
-               <input type="submit" value="Login" />
-            </from>
-           <Social></Social>
-            
+                <input type="submit" value="Login" />
+            </form>
+            <h4 className='login-tost-all'>New to genius car? <Link to='/Register' className='login-tost' onClick={navigateRegister}>Plz Register</Link></h4>
+            <Social></Social>
+
         </div>
     );
 };

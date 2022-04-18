@@ -8,6 +8,7 @@ import About from './pages/About/About';
 import Login from './pages/Login/Login';
 import Header from './share/Header/Header';
 import ServiceDetail from './pages/Home/Service/ServiceDetail/ServiceDetail';
+import Register from './pages/Register/Register';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Blog' element={<Blog></Blog>}></Route>
         <Route path='/About' element={<About></About>}></Route>
         <Route path='/ServiceDetail' element={<ServiceDetail></ServiceDetail>}></Route>
+        <Route path='/Register' element={<Register></Register>}></Route>
         <Route path='/Login' element={<Login></Login>}></Route>
       </Routes>
      
