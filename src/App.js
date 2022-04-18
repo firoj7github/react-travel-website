@@ -10,6 +10,7 @@ import Header from './share/Header/Header';
 import ServiceDetail from './pages/Home/Service/ServiceDetail/ServiceDetail';
 import Register from './pages/Register/Register';
 import Checkout from './pages/Checkout/Checkout';
+import Footer from './share/footer/Footer';
 
 
 
@@ -29,7 +30,7 @@ function App() {
         <Route path='/Checkout' element={<Checkout></Checkout>}></Route>
       </Routes>
      
-      
+      <Footer></Footer>
     </div>
   );
 }

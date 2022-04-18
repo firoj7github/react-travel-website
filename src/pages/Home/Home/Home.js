@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css'
 import Banner from '../Banner/Banner';
 import Detail from '../Detail/Detail';
 import Main from '../Main/Main';
@@ -17,7 +18,7 @@ const Home = () => {
             <Show></Show>
             <Service></Service>
             <Package></Package>
-          
+          <div className='part'></div>
         </div>
     );
 };
