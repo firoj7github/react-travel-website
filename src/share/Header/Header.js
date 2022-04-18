@@ -14,6 +14,7 @@ const Header = () => {
     return (
         
             <div className='header-all'>
+                <h2>TravelPlan</h2>
                 <nav>
                 <Link to='/'>Home</Link>
                 <Link to='/Blog'>Blog</Link>

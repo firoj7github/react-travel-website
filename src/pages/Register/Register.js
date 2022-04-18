@@ -29,7 +29,7 @@ const Register = () => {
            <form onSubmit={handleRegister}>
                <input type="email" name="email" placeholder='Enter your email' id="" required/>
                <input type="password" placeholder='Enter your epassword' name="password" id="" required/>
-               <input type="submit" value="Register" />
+               <input onClick={ navigateLogin} type="submit" value="Register" />
            </form>
            <h4>Already have an account? <Link to='/Login' className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Plz Login</Link></h4>
            <Social></Social>

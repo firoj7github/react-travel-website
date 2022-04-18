@@ -1,4 +1,4 @@
-.header-all{
+.header-all {
     height: 70px;
     width: 100%;
     background-color: rgb(5, 19, 19);
@@ -6,8 +6,12 @@
     align-items: center;
   
 }
+.header-all h2{
+margin-left: 15px;
+color: white;
+}
 .header-all nav{
-    margin-left: 950px;
+    margin-left: 860px;
 }
 .header-all nav a{
     text-decoration: none;

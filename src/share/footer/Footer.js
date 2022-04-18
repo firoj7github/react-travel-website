@@ -36,7 +36,7 @@ const Footer = () => {
                    <p>Dubai City</p>
                    <p>Paris</p>
                    <p>London</p>
-                   <p>Barcelona</p>
+                   <p>Dhaka</p>
 
 
                 </div>
