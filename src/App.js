@@ -9,6 +9,7 @@ import Login from './pages/Login/Login';
 import Header from './share/Header/Header';
 import ServiceDetail from './pages/Home/Service/ServiceDetail/ServiceDetail';
 import Register from './pages/Register/Register';
+import Checkout from './pages/Checkout/Checkout';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/ServiceDetail' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/Register' element={<Register></Register>}></Route>
         <Route path='/Login' element={<Login></Login>}></Route>
+        <Route path='/Checkout' element={<Checkout></Checkout>}></Route>
       </Routes>
      
       
