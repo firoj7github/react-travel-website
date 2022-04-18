@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
-import icon1 from '../../../image/bg5.png'
-import icon2 from '../../../image/bg5.png'
+import icon1 from '../../../image/main3.png'
+import icon2 from '../../../image/main2.png'
 import icon3 from '../../../image/bg5.png'
 
 

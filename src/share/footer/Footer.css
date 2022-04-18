@@ -1,9 +1,10 @@
 .footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 250px;
+    height: 220px;
    background-color: rgb(56, 56, 56);
     color: rgb(190, 201, 211);
+    padding-top: 10px;
     
    
 }
@@ -12,16 +13,20 @@
   
 }
 .footer-1 p{
-    margin-right: 80px;
+   margin-left: 90px;
+   margin-top: 4px;
 }
 .footer-2 p{
-    margin-right: 65px;
+    margin-left: 90px;
+    margin-top: 4px;
 }
 .footer-3 p{
-    margin-right: 85px;
+    margin-left: 85px;
+    margin-top: 4px;
 }
 .footer-4 p{
-    margin-right: 105px;
+   margin-left: 80px;
+   margin-top: 4px;
 }
 .footer-2{
     width: 350px;
@@ -36,24 +41,24 @@
     
 }
 .footer-1 h3{
-    margin-left: 70px;
+    margin-left: 45px;
     font-weight: 500;
 }
 .footer-2 h3{
-    margin-left: 80px;
+    margin-left: 40px;
     font-weight: 500;
 }
 .footer-3 h3{
-    margin-left: 90px;
+    margin-left: 60px;
     font-weight: 500;
 }
 .footer-4 h3{
-    margin-left: 100px;
+    margin-left: 60px;
     font-weight: 500;
 }
 .flow{
     width: 100px;
     height: 2px;
     background-color: darkturquoise;
-    margin-left: 120px;
+    margin-left: 70px;
 }

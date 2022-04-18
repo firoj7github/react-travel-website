@@ -20,20 +20,23 @@ const Footer = () => {
                     <p>Feedback</p>
                     <p>Help</p>
                     <p>Support</p>
-                    <p>Where Should We Go Next?</p>
+                    <p>Place</p>
                 </div>
                 <div className="footer-3">
                     <h3>Our Story</h3>
                     <div className="flow"></div>
                     <p>About us</p>
-                    <p>Design</p>
+                    <p>Journey</p>
                     <p>Join</p>
-                    <p>Architecture</p>
+                    <p>Location</p>
                 </div>
                 <div className="footer-4">
-                    <h3>Best Designer</h3>
+                    <h3>Best Place</h3>
                     <div className="flow"></div>
-                    <p> The art and technique of designing and building, as distinguished from the skills associated with construction.</p>
+                   <p>Dubai City</p>
+                   <p>Paris</p>
+                   <p>London</p>
+                   <p>Barcelona</p>
 
 
                 </div>
