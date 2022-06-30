@@ -14,18 +14,12 @@ const Header = () => {
     return (
         
             <div className='header-all'>
-                <h2>TravelPlan</h2>
+                <h4>TravelPlan</h4>
                 <nav>
                 <Link to='/'>Home</Link>
-                <Link to='/Blog'>Blog</Link>
-                <Link to='/About'>About</Link>
-                {
-                    user ? 
-                    <a onClick={handleSignout}  href="">Signout</a>
-                    :
-
-
-                    <Link to='/Login'>Login</Link>}
+                <Link to='blog'>Blog</Link>
+               
+                
             </nav>
             </div>
             

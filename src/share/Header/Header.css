@@ -6,12 +6,12 @@
     align-items: center;
   
 }
-.header-all h2{
+.header-all h4{
 margin-left: 15px;
 color: white;
 }
 .header-all nav{
-    margin-left: 860px;
+    margin-left: 1030px;
 }
 .header-all nav a{
     text-decoration: none;
