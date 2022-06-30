@@ -17,7 +17,7 @@ const Home = () => {
             <Main></Main>
             <Detail></Detail>
             <Show></Show>
-            <Service></Service>
+            
             <Package></Package>
           <div className='part'></div>
           <Footer></Footer>

@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 800px;
-    margin-top: -50px;
+   
  
 }
 .package{
@@ -20,6 +20,8 @@
     color: black;
     margin-bottom: 25px;
     font-weight: 400;
+    width: 380px;
+    margin-left: 25px;
    
 }
 .package p, h2{
