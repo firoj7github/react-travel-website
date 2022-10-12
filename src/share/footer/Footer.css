@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 220px;
-   background-color: rgb(27, 26, 26);
+   background-color: rgb(27, 25, 25);
     color: rgb(190, 201, 211);
     padding-top: 10px;
     
@@ -40,20 +40,20 @@
     width: 350px;
     
 }
-.footer-1 h3{
-    margin-left: 45px;
+.footer-1 h4{
+    margin-left: 53px;
     font-weight: 500;
 }
-.footer-2 h3{
-    margin-left: 40px;
+.footer-2 h4{
+    margin-left: 53px;
     font-weight: 500;
 }
-.footer-3 h3{
-    margin-left: 60px;
+.footer-3 h4{
+    margin-left: 65px;
     font-weight: 500;
 }
-.footer-4 h3{
-    margin-left: 60px;
+.footer-4 h4{
+    margin-left: 63px;
     font-weight: 500;
 }
 .flow{
